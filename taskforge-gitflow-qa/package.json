@@ -1,0 +1,38 @@
+{
+  "name": "taskforge-gitflow-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gera1200/taskforge-gitflow-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gera1200/taskforge-gitflow-qa/issues"
+  },
+  "homepage": "https://github.com/Gera1200/taskforge-gitflow-qa#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "globals": "^17.3.0",
+    "jest": "^30.2.0",
+    "newman": "^6.2.2",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2"
+  }
+}
